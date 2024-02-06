@@ -43,5 +43,6 @@ plt.xlabel('Time (ms)')
 plt.ylabel('Spike')
 plt.legend()
 plt.title('Poisson spike train')
+plt.savefig('vesicle.png')
 plt.show()
 
